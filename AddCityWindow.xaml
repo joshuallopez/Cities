@@ -1,0 +1,14 @@
+<Window x:Class="JosueLAssignment3991605014.AddCityWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add City" Height="350" Width="400">
+    <Grid>
+        <ComboBox x:Name="comboBoxCountry" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBoxCityName" HorizontalAlignment="Left" Height="23" Margin="10,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBoxPopulation" HorizontalAlignment="Left" Height="23" Margin="10,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <CheckBox x:Name="checkBoxCapital" Content="Capital" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="buttonAddCity" Content="Add City" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" Width="120" Click="buttonAddCity_Click"/>
+        <Button x:Name="buttonClose" Content="Close" HorizontalAlignment="Left" Margin="135,150,0,0" VerticalAlignment="Top" Width="120" Click="buttonClose_Click"/>
+        <Label x:Name="labelValidationMessage" Content="Validation Message" HorizontalAlignment="Left" Margin="10,185,0,0" VerticalAlignment="Top" Width="250"/>
+    </Grid>
+</Window>

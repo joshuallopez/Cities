@@ -1,0 +1,19 @@
+﻿<Window x:Class="JosueLAssignment3991605014.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JosueLAssignment3991605014"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="comboBoxContinents" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="comboBoxContinents_SelectionChanged"/>
+        <ListBox x:Name="listBoxCountries" HorizontalAlignment="Left" Height="100" Margin="10,45,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="listBoxCountries_SelectionChanged"/>
+        <Label x:Name="labelLanguages" Content="Languages" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="labelCurrency" Content="Currency" HorizontalAlignment="Left" Margin="10,175,0,0" VerticalAlignment="Top" Width="120"/>
+        <DataGrid x:Name="dataGridCities" HorizontalAlignment="Left" Margin="10,200,0,0" VerticalAlignment="Top" Height="200" Width="500"/>
+        <Button x:Name="buttonAddContinent" Content="Add Continent" HorizontalAlignment="Left" Margin="10,400,0,0" VerticalAlignment="Top" Width="120" Click="buttonAddContinent_Click"/>
+        <Button x:Name="buttonAddCountry" Content="Add Country" HorizontalAlignment="Left" Margin="135,400,0,0" VerticalAlignment="Top" Width="120" Click="buttonAddCountry_Click"/>
+        <Button x:Name="buttonAddCity" Content="Add City" HorizontalAlignment="Left" Margin="260,400,0,0" VerticalAlignment="Top" Width="120" Click="buttonAddCity_Click"/>
+    </Grid>
+</Window>
